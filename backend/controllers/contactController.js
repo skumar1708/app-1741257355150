@@ -1,0 +1,1 @@
+exports.sendContactMessage = async (req, res) => { const { name, email, message } = req.body; try { // Logic to send contact message via email or save to database res.status(200).json({ message: 'Message sent successfully' }); } catch (err) { res.status(500).json({ message: err.message }); } };
