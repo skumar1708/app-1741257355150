@@ -1,0 +1,1 @@
+const express = require('express'); const { getGallery, createGalleryItem, deleteGalleryItem } = require('../controllers/galleryController'); const router = express.Router(); router.route('/').get(getGallery).post(createGalleryItem); router.route('/:id').delete(deleteGalleryItem); module.exports = router;
