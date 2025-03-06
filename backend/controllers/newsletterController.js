@@ -1,0 +1,1 @@
+const Newsletter = require('../models/Newsletter'); exports.subscribeToNewsletter = async (req, res) => { const { email } = req.body; const newSubscriber = new Newsletter({ email }); try { await newSubscriber.save(); res.status(201).json({ message: 'Subscribed to newsletter successfully' }); } catch (err) { res.status(400).json({ message: err.message }); } };
