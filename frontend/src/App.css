@@ -1,0 +1,60 @@
+.header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+.header nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.home-page, .blog-page, .destinations-page, .gallery-page, .about-page, .contact-page {
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+.blog-post {
+  margin-bottom: 2rem;
+}
+.blog-post img {
+  width: 100%;
+  height: auto;
+}
+.photo-gallery img {
+  width: 30%;
+  margin: 1%;
+}
+.newsletter {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+.newsletter form {
+  display: flex;
+  justify-content: center;
+}
+.newsletter input {
+  padding: 0.5rem;
+  margin-right: 1rem;
+}
+.newsletter button {
+  padding: 0.5rem 1rem;
+  background-color: #45a049;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.map iframe {
+  width: 100%;
+  height: 300px;
+}
